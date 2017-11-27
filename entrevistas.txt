@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 https://www.youtube.com/watch?v=IgBwG33Sj6E    santiago
 
 
 https://www.facebook.com/SmartTalentUY/videos/1914934538752395/   Fabian Coito
+=======
+https://www.youtube.com/watch?v=IgBwG33Sj6E    santiago
+
+
+https://www.facebook.com/SmartTalentUY/videos/1914934538752395/   Fabian Coito
+>>>>>>> 9c17c59850e2aeadade71c2d80db4b73f29080f1
