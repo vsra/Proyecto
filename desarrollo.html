@@ -13,13 +13,11 @@
 	<header style="background-color: black;padding-top:11px;">
 		<div id="contLinkNav" >
       <nav>
-      
       <a href="competencias.html"> Competencias</a>
       <a href="desarrollo.html">Desarrollo Web</a>
-         <a href="index.html"><img id="icono" src="img/icono.jpg" class="img-fluid" alt="Responsive image"></a>
+        <a href="index.html"><img id="icono" src="img/icono.jpg" class="img-fluid" alt="Responsive image"></a>
       <a href="entrevistas.html">Entrevistas</a> 
       <a href="recursos.html">Recursos</a>  
-      
       </nav>	
     </div>
 	</header>
@@ -39,9 +37,10 @@
 
     <div class="row" style="margin-bottom: 25px;">
           <div class="col-md-4 offset-md-1 temaCaja" >
-              
-              <img src="img/desarrolloweb.png" id="titleCaja1" class="imgDesarrollo" data-target="#exampleModal">
-              <h4 class="titulosImgDesarrollo" id="title1">¿Qué es el desarrollo web?</h4>
+              <div id="titleCaja1" class="caja">
+                <img src="img/desarrolloweb.png"  class="imgDesarrollo" data-target="#exampleModal">
+                <h4 class="titulosImgDesarrollo" id="title1">¿Qué es el desarrollo web?</h4>
+              </div>
          </div>
           <div class="col-md-4 offset-md-2 temaCaja" >
             <img src="img/webdesign.jpeg" class="imgDesarrollo">
@@ -65,40 +64,7 @@
 
 
           <div class="col-md-4 offset-md-2" >
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
             <img src="img/css.ico" class="imgDesarrollo">
-            </button>
-            <!-- Button trigger modal 
-<button  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
           </div>
 
 
@@ -128,6 +94,50 @@
     </div>
 
 
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document"  style="margin-top: 150px;">
+        <div class="modal-content contenedorModal">
+          <div class="modal-header modalHeader">
+            <h5 class="modal-title" id="exampleModalLabel">¿Qué es el desarrollo web?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body modalBodyDesarrollo">
+          <p>
+            Un desarrollador web es aquel que codifica, diseña y lleva a cabo tareas lógicas, basándose en lo que el diseñador web popuso. El desarrollador es el que cuenta con el conocimiento en lenguajes de programación, desde la creación con la estructura básica en html, llegando a crear y mantener un servidor web, con el lenguaje correspondiente.
+          </p>
+
+            
+          </div>
+          <div class="modal-footer modalFooter">
+            <button type="button" class="btn btn-secondary botonPagina" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal DESARROLLO 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document" style="margin-top: 150px;">
+    <div class="modal-content contenedorModal">
+      <div class="modal-header modalHeader">
+        <h5 class="modal-title" id="exampleModalLabel">¿Qué es un desarrollador web?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modalBody">
+        Un desarrollador web es aquel que codifica, diseña y lleva a cabo tareas lógicas, basándose en lo que el diseñador web popuso. El desarrollador es el que cuenta con el conocimiento en lenguajes de programación, desde la creación con la estructura básica en html, llegando a crear y mantener un servidor web, con el lenguaje correspondiente.
+      </div>
+      <div class="modal-footer modalFooter">
+        <button type="button" class="btn btn-secondary botonPagina" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+-->
     
 
 
@@ -155,7 +165,7 @@
 
     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-       Un desarrollador web es aquel que codifica, diseña y lleva a cabo tareas lógicas, basándose en lo que el diseñador web popuso. El desarrollador es el que cuenta con el conocimiento en lenguajes de programación, desde la creación con la estructura básica en html, llegando a crear y mantener un servidor web, con el lenguaje correspondiente
+       Un desarrollador web es aquel que codifica, diseña y lleva a cabo tareas lógicas, basándose en lo que el diseñador web popuso. El desarrollador es el que cuenta con el conocimiento en lenguajes de programación, desde la creación con la estructura básica en html, llegando a crear y mantener un servidor web, con el lenguaje correspondiente.
       </div>
     </div>
   </div>

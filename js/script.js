@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 	});
 
-	$( "#titleCaja1" ).mouseover(function() {
+	$( "#titleCaja1" ).mouseenter(function() {
 		$("#title1").fadeIn();
 	});
 
@@ -30,13 +30,9 @@ $(document).ready(function(){
 		$("#exampleModal").modal();
 	});
 
-	$( "#titleCaja1" ).mouseout(function() {
-		if ($( "#title1" ).is(':hover')=== false){
-
-			$("#title1").fadeOut();
-
-		}
-});
+	$( "#titleCaja1" ).mouseleave(function() {
+		$("#title1").fadeOut();
+	});
 
 
 
