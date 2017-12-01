@@ -3,14 +3,56 @@
 	<meta charset="utf-8">
 	<title>Entrevistas</title>
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body style="background-color: #e9ecef;">
+	
 	<header style="background-color: black;padding-top:11px;">
+		<!--
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>  
+-->
+
+
+
+
 		<div id="contLinkNav" >
 			<nav>
 			
@@ -28,79 +70,144 @@
 
 
 		<div class= "container bodyPrin"></div>
-			<h1 class="titulosPrincipales">Entrevistas</h1>
+
 			<div class="row">
+				<div class="col">					
+					<div class="jumbotron jumbotron-fluid contenedor titulosPrincipales">
+  						<div class="container">
+    						<h1 class="display-3">Entrevistas</h1>
+    						<p class="lead">Estas son en resumen, las entrevistas y charlas que hemos trabajado en el año.</p>
+  						</div>
+					</div>						
+				</div>
+			</div>
 
-	  			<div class="col">
-	  				<section class="entrevistas">
-						<div class="card cardBanner">
-              <img class="card-img-top img-responsive imgTamañoBanner" src="img/rita.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Rita Marquisio</h4>
-                <p class="card-text">Líder del grupo Jóvenes a Programar.</p>
-                <a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
-                  <button class="btn btn-primary botonPagina" style="display: block;margin:0 auto;">Ver entrevista</button>
-                </a>
-              </div>
-            </div>
-
-					</section>
+			<div class="row" style="margin-bottom: 25px;">
+	  			<div class="col-md-4 offset-md-1" style="padding-bottom: 25px;">
+	  				
+						<div class="card cardBanner" style="margin: auto;">
+			              <img class="card-img-top img-responsive imgTamañoBanner" src="img/rita.jpg" alt="Card image cap">
+			              <div class="card-body">
+			                <h4 class="card-title">Rita Marquisio</h4>
+			                <p class="card-text">Líder del grupo Jóvenes a Programar.</p>
+                			<a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
+                  			<button class="btn btn-primary botonPagina sombra" style="display: block;margin:0 auto;">Ver entrevista</button>
+                			</a>
+              			   </div>
+            			</div> 
+					
 				</div>
 
 
-	  			<div class="col">
-
-					<section class="entrevistas ">
-						<div class="card" style="width: 20rem;">
-							<img class="card-img-top" src="img/sebastian.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h4 class="card-title">Sebastián Caggiano.</h4>
-								<p class="card-text">Ing. en sistemas. Docente del grupo.</p>
-								<a href="#" class="btn btn-primary">Ver entrevista</a>
-							</div>
-						</div>
-
-					</section>
+	  			<div class="col-md-4 offset-md-2" >					
+						<div class="card cardBanner" style="margin: auto;">
+              				<img class="card-img-top imgTamañoBanner" src="img/sebastian.jpg" alt="Card image cap">
+              				<div class="card-body">
+				                <h4 class="card-title">Sebastián Caggiano.</h4>
+				                <p class="card-text">Ing. en sistemas. Docente del grupo.</p>
+				                <a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
+				                <button class="btn btn-primary botonPagina sombra" style="display: block;margin:0 auto;">Ver entrevista</button>
+				                </a>
+                			</div>
+            			</div>            							
 	  			</div>
-
-	  			<div class="col">
-	  				<section class="entrevistas ">
-						<div class="card" style="width: 20rem;">
-							<img class="card-img-top" src="img/fabian.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h4 class="card-title">Fabián Coito</h4>
-								<p class="card-text">Ex futbolista y actual entrenador de la selección sub-20 de Uruguay.</p>
-								<a href="#" class="btn btn-primary">Ver entrevista</a>
-							</div>
-						</div>
-
-					</section>
-	  			</div>
+	  		</div>
 
 
-	  			<div class="col">
-	  				<section class="entrevistas ">
-						<div class="card" style="width: 20rem;">
-							<img class="card-img-top" src="img/santiago.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h4 class="card-title">Santiago Fernandez.</h4>
-								<p class="card-text">Director de Orange Attitude.</p>
-								<a href="#" class="btn btn-primary">Ver entrevista</a>
-							</div>
-						</div>
+	  		
+	  			<div class="row">
+		  			<div class="col-md-4 offset-md-1" style="padding-bottom: 25px;">
+							<div class="card cardBanner" style="margin: auto;">
+				            	<img class="card-img-top imgTamañoBanner" src="img/fabian.jpg" alt="Card image cap">
+				            	<div class="card-body">
+					                <h4 class="card-title">Fabián Coito</h4>
+					                <p class="card-text">Ex futbolista y actual entrenador de la selección sub-20 de Uruguay.</p>
+					                <!-- Button trigger modal -->
+					                	<button type="button" class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#entrevistaFabian" style="display: block;margin:0 auto;">Ver entrevista</button>              
+				                </div>
+	            			</div>
+		  			</div>
 
-					</section>
+		  			<div class="col-md-4 offset-md-2">
+							<div class="card cardBanner" style="margin: auto;">
+			                    <img class="card-img-top imgTamañoBanner" src="img/santiago.jpg" alt="Card image cap">
+			                    <div class="card-body">
+			                      <h4 class="card-title">Santiago Fernandez.</h4>
+			                      <p class="card-text">Director de Orange Attitude.</p>
+			                      <!-- Button trigger modal -->
+			                      <button type="button" class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#entrevistaSantiago" style="display: block;margin:0 auto;">Ver entrevista</button>
+			                    </div>
+	                    	</div>
+					</div>
+
 				</div>
+
+
+
+
+
+
+
+
+
 			</div>
        			
 			</div>
 		</div>
 
+
+
+		<!-- Modal FABIAN -->
+<div class="modal fade" id="entrevistaFabian" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content contenedorModal" style="width: 602px; margin-top: 120px;">
+      <div class="modal-header modalHeader">
+        <h5 class="modal-title" id="exampleModalLabel">Fabián Coito | Smart Talent Day 2017</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modalBody">
+      	<iframe  class="modalVideo" height="315" src="https://www.youtube.com/embed/H3ajkhX_pYw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      	      
+      </div>
+      <div class="modal-footer modalFooter">
+        <button type="button" class="btn btn-secondary botonPagina" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal SANTIAGO -->
+<div class="modal fade" id="entrevistaSantiago" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content contenedorModal">
+      <div class="modal-header modalHeader">
+        <h5 class="modal-title" id="exampleModalLabel">Charla en Desprogramate-GeneXus.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modalBody">
+      	
+      	<iframe height="315" src="https://www.youtube.com/embed/IgBwG33Sj6E?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen class="modalVideo"></iframe>
+      </div>
+      <div class="modal-footer modalFooter">
+        <button type="button" class="btn btn-secondary botonPagina" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
 	
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>

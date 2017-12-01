@@ -21,5 +21,25 @@ $(document).ready(function(){
 		}
 
 	});
+
+	$( "#titleCaja1" ).mouseover(function() {
+		$("#title1").fadeIn();
+	});
+
+	$("#titleCaja1").click(function(){
+		$("#exampleModal").modal();
+	});
+
+	$( "#titleCaja1" ).mouseout(function() {
+		if ($( "#title1" ).is(':hover')=== false){
+
+			$("#title1").fadeOut();
+
+		}
+});
+
+
+
+
 });
 

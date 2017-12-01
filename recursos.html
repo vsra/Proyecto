@@ -14,87 +14,95 @@
 		<div id="contLinkNav" >
 			<nav>			
 				<a href="competencias.html"> Competencias</a>
-	     		<a href="desarrollo.html">Desarrollo Web</a>
-	      			
-
+	     		<a href="desarrollo.html">Desarrollo Web</a>      			
 				<a href="index.html"><img id="icono" src="img/icono.jpg" class="img-fluid" alt="Responsive image"></a>
-
 				<a href="entrevistas.html">Entrevistas</a> 
-	      		<a href="recursos.html">Recursos</a>	   
+     		<a href="recursos.html">Recursos</a>	   
 			</nav>
 		</div>
 	</header>
-	<section class="container bodyPrin">
+	
 
-	<h1 class="titulosPrincipales">Recursos</h1>
-
+    <div class="container bodyPrin">
+      <div class="row">
+        <div class="col">         
+          <div class="jumbotron jumbotron-fluid contenedor titulosPrincipales">
+              <div class="container">
+                <h1 class="display-3">Recursos.</h1>
+                <p class="lead">Principales conceptos sobre desarrollo y diseño trabajados en clase.</p>
+              </div>
+          </div>            
+        </div>
+      </div>
 
 	<div class="row" style="padding-top: 25px; padding-left: 125px;">
-  	<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="img/cv.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Curriculum Vitae</h4>
-    <p class="card-text">Sofía Ruiz Alejandro.</p>
-    <button class="btn btn-primary"  data-toggle="modal" data-target="#cvModal">Ver</button>
-  </div>
-</div>
+  	<div class="card imgRecursos" style="width: 20rem;">
+      <img class="card-img-top" src="img/cv.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Curriculum Vitae</h4>
+        <p class="card-text">Sofía Ruiz Alejandro.</p>
+        <button class="btn btn-primary botonPagina sombra"  data-toggle="modal" data-target="#cvModal">Ver</button>
+      </div>
 
-<!-- Modal -->
-<div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document"  style="margin-top: 150px;">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Curriculum Vitae</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="img/cv.jpg" style="width: 100%;">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
+      
     </div>
-  </div>
-</div>
-
-
-
 
 
 <div class="row" style="padding-left: 125px;">
-  	<div class="card" style="width: 20rem;">
+  	<div class="card imgRecursos" style="width: 20rem;">
   <img class="card-img-top" src="img/cartaPresentacion.jpg" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">Carta de Presentación</h4>
-    <p class="card-text">Carta de presentación en respuesta a un anuncio de oferta laboral.</p>
-    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#presentacionCarta">Ver</a>
+    <p class="card-text"> Ejemplo de carta de presentación en respuesta a un anuncio de oferta laboral.</p>
+    <a href="#" class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#presentacionCarta">Ver</a>
   </div>
 </div>
 
+<!-- Modal CV-->
+    <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document"  style="margin-top: 150px;">
+        <div class="modal-content contenedorModal">
+          <div class="modal-header modalHeader">
+            <h5 class="modal-title" id="exampleModalLabel">Curriculum Vitae</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body modalBody">
+           <embed src="pdf/cvNuevo.pdf" width="602px" height="860px" />
 
-<!-- Modal -->
+            
+          </div>
+          <div class="modal-footer modalFooter">
+            <button type="button" class="btn btn-secondary botonPagina" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal PRESENTACION -->
 <div class="modal fade" id="presentacionCarta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document"  style="margin-top: 150px;">
-    <div class="modal-content">
-      <div class="modal-header">
+    <div class="modal-content contenedorModal">
+      <div class="modal-header modalHeader">
         <h5 class="modal-title" id="exampleModalLabel">Carta de presentación.</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <img src="img/cartaPresentacion.jpg" style="width: 100%;">
+      <div class="modal-body modalBody">
+        <embed src="pdf/cartaDePresentacion.pdf" width="602px" height="600px" />
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      <div class="modal-footer modalFooter">
+        <button type="button" class="btn btn-secondary botonPagina" data-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>
 </div>
+</div>
+</div>
 
-</section>
+
 
 
 
