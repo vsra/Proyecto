@@ -151,7 +151,45 @@ $(document).ready(function(){
 		$("#title10").fadeOut();
 	});
 
+// Caja PARTICIPATIVAS
+	$( "#titleCaja11").mouseenter(function() {
+		$("#title11").fadeIn();
+	});
 
+	$("#titleCaja11").click(function(){
+		$("#modalTitle11").modal();
+	});
+
+	$( "#titleCaja11").mouseleave(function() {
+		$("#title11").fadeOut();
+	});
+
+
+// Caja PERSONALES
+	$( "#titleCaja12").mouseenter(function() {
+		$("#title12").fadeIn();
+	});
+
+	$("#titleCaja12").click(function(){
+		$("#modalTitle12").modal();
+	});
+
+	$( "#titleCaja12").mouseleave(function() {
+		$("#title12").fadeOut();
+	});
+
+// Caja TECNICAS
+	$( "#titleCaja13").mouseenter(function() {
+		$("#title13").fadeIn();
+	});
+
+	$("#titleCaja13").click(function(){
+		$("#modalTitle13").modal();
+	});
+
+	$( "#titleCaja13").mouseleave(function() {
+		$("#title13").fadeOut();
+	});
 
 
 
