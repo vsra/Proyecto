@@ -134,15 +134,20 @@
     height: 306px;
 ">
           <h3 style="text-align: center;">Contactame</h3>
-          <form method="POST" action="http://formspree.io/sofiaruizalejandro@gmail.com">
+          <form method="POST" action="https://sendemailsofi.herokuapp.com">
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" name="email"  class="form-control" required placeholder="Cual es su email?">
               
             </div>
             <div class="form-group">
-              <label for="message">Mensaje</label>
-              <textarea name="message" class="form-control" required  placeholder="Cual es su mensaje?"></textarea>
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto"  class="form-control" required placeholder="Cual es su email?">
+              
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" class="form-control" required  placeholder="Cual es su mensaje?"></textarea>
             </div>
   <button type="submit" class="btn btn-primary botonPagina  " style="float: right;width:  70px;"> <i class="fa fa-paper-plane" aria-hidden="true"></i>
 </button>
