@@ -70,6 +70,28 @@
 
 }
 
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+	height: 70px;
+	background-color: transparent;
+	-webkit-transition: background-color .5s;
+	margin: 0;
+	padding: 0;
+	font-family: 'Julius Sans One', sans-serif;
+	
+
+}
+
+nav{
+	display: table;
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition:margin-left .5s;
+
+}
 
 a{
 	display: block;
