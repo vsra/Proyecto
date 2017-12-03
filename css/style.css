@@ -321,10 +321,21 @@ margin-bottom: 50px;
 }
 
 
-@media  (max-width: 480px) {
-    .cWhite {
-    	color:red;
+@media  (max-width: 667px) {
+    #icono {
+    		margin-left: 396% !important;
 	    }
+	.navbar-toggler{
+		margin-top: -4px !important;
+	}
+	.navbar-brand{
+
+    	padding-top: 14px !important;
+
+	}
+	nav{
+		height: 50px;
+	}
 }
 
 
