@@ -8,51 +8,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
-<body style="background-color: #e9ecef;">
+<body class="bodyBC">
 	
-	<header style="background-color: black;padding-top:11px;">
-		<!--
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>  
--->
-
-
-
-
+	<header class="headerStyle">
+	
 		<div id="contLinkNav">
 			<nav>			
 				<a href="competencias.html"> Competencias</a>
@@ -77,15 +36,15 @@
 				</div>
 			</div>
 
-			<div class="row" style="margin-bottom: 25px;">
-	  			<div class="col-md-4 offset-md-1" style="padding-bottom: 25px;">
-						<div class="card cardBanner" style="margin: auto;">
+			<div class="row mBottom25">
+	  			<div class="col-md-4 offset-md-1 paddBtn25">
+						<div class="card cardBanner mAuto">
 			          <img class="card-img-top img-responsive imgTamañoBanner" src="img/rita.jpg" alt="Card image cap">
 			          <div class="card-body">
 			            <h4 class="card-title">Rita Marquisio</h4>
 			            <p class="card-text">Líder del grupo Jóvenes a Programar.</p>
                 	
-                 		<button class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#entrevistaRita" style="display: block;margin:0 auto;">Ver entrevista</button>
+                 		<button class="btn btn-primary botonPagina sombra btnEntrevistas" data-toggle="modal" data-target="#entrevistaRita">Ver entrevista</button>
                 	
               	</div>
             </div> 					
@@ -93,13 +52,13 @@
 
 
 	  			<div class="col-md-4 offset-md-2" >					
-						<div class="card cardBanner" style="margin: auto;">
+						<div class="card cardBanner mAuto">
               				<img class="card-img-top imgTamañoBanner" src="img/sebastian.jpg" alt="Card image cap">
               				<div class="card-body">
 				                <h4 class="card-title">Sebastián Caggiano.</h4>
 				                <p class="card-text">Ing. en sistemas. Docente del grupo.</p>
 				                
-				                <button class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#entrevistaSebastian" style="display: block;margin:0 auto;">Ver entrevista</button>
+				                <button class="btn btn-primary botonPagina sombra btnEntrevistas" data-toggle="modal" data-target="#entrevistaSebastian">Ver entrevista</button>
 				                
                 			</div>
             			</div>            							
@@ -109,26 +68,26 @@
 
 	  		
 	  			<div class="row">
-		  			<div class="col-md-4 offset-md-1" style="padding-bottom: 25px;">
+		  			<div class="col-md-4 offset-md-1 paddBtn25">
 							<div class="card cardBanner" style="margin: auto;">
 				            	<img class="card-img-top imgTamañoBanner" src="img/fabian.JPG" alt="Card image cap ">
 				            	<div class="card-body">
 					                <h4 class="card-title">Fabián Coito</h4>
 					                <p class="card-text">Ex futbolista y actual entrenador de la selección sub-20 de Uruguay.</p>
 					                <!-- Button trigger modal -->
-					                	<button type="button" class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#entrevistaFabian" style="display: block;margin:0 auto;">Ver entrevista</button>              
+					                	<button type="button" class="btn btn-primary botonPagina sombra btnEntrevistas" data-toggle="modal" data-target="#entrevistaFabian">Ver entrevista</button>              
 				                </div>
 	            			</div>
 		  			</div>
 
 		  			<div class="col-md-4 offset-md-2">
-							<div class="card cardBanner" style="margin: auto;">
+							<div class="card cardBanner mAuto">
 			                    <img class="card-img-top imgTamañoBanner" src="img/santiago.jpg" alt="Card image cap">
 			                    <div class="card-body">
 			                      <h4 class="card-title">Santiago Fernandez.</h4>
 			                      <p class="card-text">Director de Orange Attitude.</p>
 			                      <!-- Button trigger modal -->
-			                      <button type="button" class="btn btn-primary botonPagina sombra" data-toggle="modal" data-target="#entrevistaSantiago" style="display: block;margin:0 auto;">Ver entrevista</button>
+			                      <button type="button" class="btn btn-primary botonPagina sombra btnEntrevistas" data-toggle="modal" data-target="#entrevistaSantiago">Ver entrevista</button>
 			                    </div>
 	                    	</div>
 					</div>
@@ -153,7 +112,7 @@
 		<!-- Modal FABIAN -->
 <div class="modal fade" id="entrevistaFabian" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content contenedorModal" style="width: 602px; margin-top: 120px;">
+    <div class="modal-content contenedorModal modalEntevista">
       <div class="modal-header modalHeader">
         <h5 class="modal-title" id="exampleModalLabel">Fabián Coito | Smart Talent Day 2017</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -175,7 +134,7 @@
    <!-- Modal RITA -->
 <div class="modal fade" id="entrevistaRita" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content contenedorModal" style="width: 602px; margin-top: 120px;">
+    <div class="modal-content contenedorModal modalEntevista">
       <div class="modal-header modalHeader">
         <h5 class="modal-title" id="exampleModalLabel">Rita Marquisio</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -183,7 +142,7 @@
         </button>
       </div>
       <div class="modal-body modalBodyDesarrollo">
-        <p style="padding: 21px;">
+        <p class="padd21">
           “No trabajes para ganar dinero, logra que te paguen haciendo lo que más te apasiona”
           <blockquote>
           “Si quieres ir rápido, hazlo solo; si quieres ir lejos, hazlo en equipo”
@@ -204,7 +163,7 @@
     <!-- Modal SEBASTIAN -->
 <div class="modal fade" id="entrevistaSebastian" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content contenedorModal" style="width: 602px; margin-top: 120px;">
+    <div class="modal-content contenedorModal modalEntevista">
       <div class="modal-header modalHeader">
         <h5 class="modal-title" id="exampleModalLabel">Sebastian Caggiano</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -212,7 +171,7 @@
         </button>
       </div>
       <div class="modal-body modalBodyDesarrollo">
-        <p style="padding: 21px;">
+        <p class="padd21">
           “No trabajes para ganar dinero, logra que te paguen haciendo lo que más te apasiona”
           <blockquote>
           “Si quieres ir rápido, hazlo solo; si quieres ir lejos, hazlo en equipo”

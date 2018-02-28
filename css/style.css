@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
 
-*{
-	
+a:hover{
+	text-decoration: none;
+	color: white;
+
 }
 
 .cWhite{
@@ -337,13 +339,48 @@ margin-bottom: 50px;
 .mBottom10{
 	margin-bottom: 10px;
 }
+
+.mBottom50{
+	margin-bottom: 50px;
+}
+
+.mBottom30{
+	margin-bottom: 30px;
+}
+.mBottom25{
+	margin-bottom: 25px;
+}
+.mTop150{
+	margin-top: 125px;
+}
+
+.padd21{
+	padding: 21px;
+}
+.paddBtn25{
+	padding-bottom: 25px;
+
+}
+.paddLeft{
+	padding-left: 125px;
+}
+
 .linkBtn{
 	width: 100%;
 	margin-left: 0px; 
 	text-decoration: none;
-
 }
-
+.mAuto{
+	margin: auto;
+}
+.modalEntevista{
+	width: 602px; 
+	margin-top: 120px;
+}
+.btnEntrevistas{
+	display: block;
+	margin:0 auto;
+}
 .buttonStyle{
 	display: block;
 	margin:0 auto;
@@ -353,4 +390,36 @@ margin-bottom: 50px;
 .contStyle{
 	height:400px;
 	margin-bottom: 30px;
+}
+
+.height389{
+	height: 389px;
+}
+.height425{
+	height:425px;
+
+}
+.TACenter{
+	text-align: center;
+}
+
+.width20r{
+	width: 20rem;
+
+}
+.btnSubmit{
+	float: right;
+	width:  70px;
+}
+
+
+.headerStyle{
+	background-color: black;
+	padding-top:11px;
+}
+
+.recursosStyle{
+	padding-top: 25px; 
+	padding-left: 125px;"
+
 }
