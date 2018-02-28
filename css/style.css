@@ -326,29 +326,31 @@ margin-bottom: 50px;
 }
 
 
-/*
-.containerDesarrollo:hover .overlay{
-	border: 5px solid white;
-	box-shadow: 0px 5px 69px -4px rgba(0,0,0,0.75);
+.bodyBC{
+	background-color: #e9ecef;
+}
+
+.contHeight{
+	height: 583px;
+}
+
+.mBottom10{
+	margin-bottom: 10px;
+}
+.linkBtn{
+	width: 100%;
+	margin-left: 0px; 
+	text-decoration: none;
 
 }
 
-.text{
-	text-align: center;
-	color: white;
+.buttonStyle{
+	display: block;
+	margin:0 auto;
 
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 300;
-  height: 200; 
-  opacity: 0.6;
-  transition: .5s ease;
-  
+.contStyle{
+	height:400px;
+	margin-bottom: 30px;
 }
-*/

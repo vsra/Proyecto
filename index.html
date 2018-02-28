@@ -12,7 +12,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/scriptmenu.js"></script>
 </head>
-<body style="background-color: #e9ecef;">
+<body class="bodyBC">
 	<header>
 		<div id="contLinkNav">
 			<nav>
@@ -32,7 +32,7 @@
         <div class="col-sm">
           <section class="noticias">
             <div id="ceibal">
-              <div class="contenedor" style="height: 583px;">
+              <div class="contenedor contHeight">
                 <h1>¿Qué es Plan Ceibal?</h1>
                 <p>Plan Ceibal se creó en 2007 como un plan de inclusión e igualdad de oportunidades con el objetivo de apoyar con tecnología las políticas educativas uruguayas. Desde su implementación, <img id="planCeibal" src="img/planCeibal.png"> cada niño que ingresa al sistema educativo público en todo el país accede a una computadora para su uso personal con conexión a Internet gratuita  desde el centro educativo. Además, Plan Ceibal provee un conjunto de programas, recursos educativos y capacitación docente que transforma las maneras de enseñar y aprender.</p>
               </div>
@@ -43,7 +43,7 @@
         </div>
         <div class="col-sm">
           <div class="noticias">
-            <div class="contenedor titulosPrincipales" style="margin-bottom: 10px;">
+            <div class="contenedor titulosPrincipales mBottom10">
               <h1>Entrevistas</h1>  
             </div>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -60,8 +60,8 @@
                 <div class="card-body">
                   <h4 class="card-title">Rita Marquisio</h4>
                   <p class="card-text">Líder del grupo Jóvenes a Programar.</p>
-                  <a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
-                    <button class="btn btn-primary botonPagina" style="display: block;margin:0 auto;">Ver entrevista</button>
+                  <a href="entrevistas.html" class="linkBtn">
+                    <button class="btn btn-primary botonPagina buttonStyle">Ver entrevista</button>
                   </a>
                 </div>
               </div>
@@ -72,8 +72,8 @@
                   <div class="card-body">
                     <h4 class="card-title">Sebastián Caggiano.</h4>
                     <p class="card-text">Ing. en sistemas. Docente del grupo.</p>
-                    <a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
-                      <button class="btn btn-primary botonPagina" style="display: block;margin:0 auto;">Ver entrevista</button>
+                    <a href="entrevistas.html" class="linkBtn">
+                      <button class="btn btn-primary botonPagina buttonStyle">Ver entrevista</button>
                     </a>
                   </div>
                 </div>
@@ -84,8 +84,8 @@
                   <div class="card-body">
                     <h4 class="card-title">Fabián Coito</h4>
                     <p class="card-text">Ex futbolista y actual entrenador de la selección sub-20 de Uruguay.</p>
-                    <a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
-                      <button class="btn btn-primary botonPagina" style="display: block;margin:0 auto;">Ver entrevista</button>
+                    <a href="entrevistas.html" class="linkBtn">
+                      <button class="btn btn-primary botonPagina buttonStyle">Ver entrevista</button>
                     </a>
                   </div>
                 </div>
@@ -96,8 +96,8 @@
                   <div class="card-body">
                     <h4 class="card-title">Santiago Fernandez.</h4>
                     <p class="card-text">Director de Orange Attitude.</p>
-                    <a href="entrevistas.html" style="width: 100%;margin-left: 0px; text-decoration: none;">
-                      <button class="btn btn-primary botonPagina" style="display: block;margin:0 auto;">Ver entrevista</button>
+                    <a href="entrevistas.html" class="linkBtn">
+                      <button class="btn btn-primary botonPagina buttonStyle">Ver entrevista</button>
                     </a>
                   </div>
                 </div>
@@ -117,11 +117,11 @@
     </div>
     <div class="col-sm">
       <div class="noticias">
-       <div class="contenedor " style="height:400px;margin-bottom: 30px;">
+       <div class="contenedor contStyle">
                   <h1>Jóvenes a Programar</h1>
                   <p>Jóvenes a Programar apunta a la inserción laboral en un rubro con alta demanda de recursos humanos capacitados. Cuenta con el apoyo de la Cámara Uruguaya de Tecnologías de la Información (CUTI); las empresas vinculadas a la formación accederán a la bolsa de empleo que se genere.</p>
-                  <a href="http://jovenesaprogramar.edu.uy/"  target="_blank" style="width: 100%;margin-left: 0px; text-decoration: none;">
-                    <button class="btn btn-primary botonPagina sombra" style="display: block;margin:0 auto;">Más información</button>
+                  <a href="http://jovenesaprogramar.edu.uy/"  target="_blank" class="linkBtn">
+                    <button class="btn btn-primary botonPagina sombra buttonStyle">Más información</button>
                   </a>        
                 </div>
       </div>
@@ -130,7 +130,7 @@
 
   <div class="row justify-content-md-center">
     <div class="col-md-6">
-        <div class="contenedor" style="
+        <div class="contenedor " style="
     
     height: 389px;
 
@@ -139,17 +139,17 @@
           <form method="POST" action="https://teprendes.com/s.php">
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" name="email"  class="form-control" required placeholder="Cual es su email?">
+              <input type="email" name="email"  class="form-control" required placeholder="¿Cuál es su email?">
               
             </div > 
             <div class="form-group">
               <label for="asunto">Asunto</label>
-              <input type="text" name="asunto"  class="form-control" required placeholder="Cual es su email?">
+              <input type="text" name="asunto"  class="form-control" required placeholder="¿Cuál es su asunto?">
               
             </div>
             <div class="form-group">
               <label for="mensaje">Mensaje</label>
-              <textarea name="mensaje" class="form-control" required  placeholder="Cual es su mensaje?"></textarea>
+              <textarea name="mensaje" class="form-control" required  placeholder="¿Cuál es su mensaje?"></textarea>
             </div>
   <button type="submit" class="btn btn-primary botonPagina  " style="float: right;width:  70px;"> <i class="fa fa-paper-plane" aria-hidden="true"></i>
 </button>
